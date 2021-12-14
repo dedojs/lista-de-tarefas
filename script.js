@@ -9,7 +9,6 @@ const listTask = document.getElementById('lista-tarefas');
 const inputTask = document.getElementById('texto-tarefa');
 const inputBtn = document.getElementById('criar-tarefa');
 let teste5 = '';
-
 // criar evento para adicionar li na ol
 
 function addTask() {
@@ -20,7 +19,8 @@ function addTask() {
   listTask.appendChild(task);
   inputTask.value = '';
   teste5 = document.querySelectorAll('.task');
-  console.log(teste5.length);
+  //console.log(teste5.length);
+  
 }
 
 // Foi criado 3 formas de inserir o texto do input na lista
@@ -136,10 +136,12 @@ btnUp.addEventListener('click', taskUp);
 let btnSave = document.getElementById('salvar-tarefas');
 let btnDelStorage = document.getElementById('apagar-memoria');
 let tasksSaved = [];
-// textTask
+///let tarefas = listTask.innerHTML
 function saveTask() {
-  localStorage.setItem('tasks', JSON.stringify(textTask));
-  console.log(tasksSaved);
+  let tarefas = listTask.innerHTML
+  console.log(tarefas)
+  localStorage.setItem('tasks', JSON.stringify(tarefas));
+  
 }
 btnSave.addEventListener('click', saveTask);
 
@@ -151,22 +153,7 @@ function deleteMemory() {
 }
 btnDelStorage.addEventListener('click', deleteMemory);
 
-// função copiada do corse 5,4, falta ajustes
-function getTask() {
-  if (localStorage.getItem('tasks') === null) {
-    localStorage.setItem('tasks', JSON.stringify([]));
-  } else {
-    const phrasesList = JSON.parse(localStorage.getItem('tasks'));
-    const listLength = phrasesList.length - 1;
-    for (let index = 0; index <= listLength; index += 1) {
-      const listElement = document.createElement('li');
-      listElement.innerText = phrasesList[index];
-      listElement.classList.add('task', 'completed');
-      list.appendChild(listElement);
-    }
-  }
-}
-
 window.onload = () => {
-  getTask();
+  // getTask();
+  listTask.innerHTML= JSON.parse(localStorage.getItem('tasks' ))
 };
