@@ -1,10 +1,10 @@
-@media screen and (max-width: 460px) {
-    .main {
+@media screen and (max-width: 420px) {
+    body {
       background-image: url(./imgs/black-tea-pen-spectacles-and-blank-white-papers-with-clipboard-on-wooden-background.jpg);
       background-repeat: no-repeat;
       background-position: center center;
       position: relative;
-      height: 350px;
+      height: 400px;
     }
   
     .input{
@@ -20,7 +20,7 @@
         font-size: 15px;
     }
     .input input{
-      width: 100px;
+      width: 50px;
       height: 20px;
       margin-left: -20px;
       font-size: 15px;
@@ -28,10 +28,10 @@
     }
     #cont-task{
       position: relative;
-      top: 28px;
+      top: 1px;
       font-size: 12px;
       overflow: auto;
-      height: 210px;
+      height: 200px;
       text-align: left;
       margin-left: 105px;  
       margin-right: 55px;  
@@ -53,13 +53,17 @@
   #input2{
     width: 40px;
     position: relative;
-    bottom: 100px;
+    top: -130px;
     right: 20px;
     display: inline;
   }
 
+  #input1{
+    top: -60px;
+  }
+
   .selected{
-      width: 120px;
+      width: 180px;
       font-size: 15px;
       text-align: center;
       margin-left: -20px;
@@ -76,8 +80,8 @@
       font-size: 20px;
   }
 
-  p{
-     font-size: 15px;
+  header p{
+     font-size: 12px;
   }
 
   #remover-selecionado{
@@ -147,5 +151,14 @@
     text-decoration: none;
     color: rgba(255, 255, 255, 0.274);
     font-size: 10px;
+  }
+
+  footer p{
+    font-size: 15px;
+    position: relative;
+    top: 15px;
+  }
+  footer li a{
+    width: 20px;
   }
 }

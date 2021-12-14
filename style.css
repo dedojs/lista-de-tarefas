@@ -27,7 +27,7 @@ header p {
   width: auto;
 }
 
-main {
+body {
   background-image: url(./imgs/black-tea-pen-spectacles-and-blank-white-papers-with-clipboard-on-wooden-background.jpg);
   background-repeat: no-repeat;
   background-position: 50% 30%;
@@ -86,7 +86,7 @@ h2{
 .input{
   /* campo input adicionar e botoes */
   position: relative;
-  top: 160px;
+  top: 70px;
   display: inline-block;
   
 
@@ -101,10 +101,13 @@ h2{
 
 #cont-task{
   position: relative;
-  top: 160px;
+  top: 80px;
   overflow: auto;
   /* border: 1px solid; */
-  height: 720px;
+  height: 800px;
+}
+.task{
+  max-width: 800px;
 }
 
 /* botao input */
@@ -208,22 +211,24 @@ menu .button{
   list-style-position: inside;
   width: 19em;
   margin: 20px auto;
+  overflow: auto;
   }
 
 
 /* classe de texto selecionado */
 .selected{
-  max-width: 19em;
+  max-width: 800px;
   margin:auto;
   margin-top: 14px;
   background-color: rgba(175, 82, 6, 0.26);
-  font-size: 30px;
-  font-weight: bolder
+  font-size: 25px;
+  font-weight: bolder;
+  overflow: auto
 };
 
 .completed{
   text-decoration: line-through;
-
+  overflow: auto;
 }
 
 .teste{
