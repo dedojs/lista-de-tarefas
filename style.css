@@ -103,8 +103,8 @@ h2{
   position: relative;
   top: 160px;
   overflow: auto;
-  
-  height: 500px;
+  border: 1px solid;
+  height: 720px;
 }
 
 /* botao input */
