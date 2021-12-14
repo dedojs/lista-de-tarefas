@@ -213,14 +213,12 @@ menu .button{
 
 /* classe de texto selecionado */
 .selected{
-  max-width: auto;
+  max-width: 19em;
   margin:auto;
   margin-top: 14px;
   background-color: rgba(175, 82, 6, 0.26);
   font-size: 30px;
   font-weight: bolder
-
-
 };
 
 .completed{
