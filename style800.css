@@ -1,61 +1,59 @@
 @media screen and (max-width: 800px) {
-    .input{
-      /* campo input adicionar e botoes */
-      position: relative;
-      top: 200px;
-      margin-left: -50px;
-      display: block;
-    }
-    #input1{
-     display: block;
-    }
-    #input2{
-      display: block;
-      
-    }
-  
-    #cont-task{
-      font-size: 18px;
-      height: 380px;
-      overflow: auto;
-      border: 1px solid;
-    text-align:center;
-      font-size: 18px;
-      top: 150px;
-      
-    }
-    .selected{
-      width: 350px;
-      font-size: 22px;
-    }
-  
-    .completed{
-      width: 350px;
-    }
-  
-    .main {
-      background-image: url(./imgs/black-tea-pen-spectacles-and-blank-white-papers-with-clipboard-on-wooden-background.jpg);
-      background-repeat: no-repeat;
-      background-position: center center;
-      position: relative;
-      height: 800px;
-    }
-  
-    .input{
-      top: 130px;
-      }
-    .input h2{
-      font-size: 35px;
-      margin-bottom: 10px;
-      position: relative;
-      top: 15px;  
-    }
-    .input input{
-      margin-top: 10px;
-      width: 200px;
-    }
-      /* botao input */
-  #criar-tarefa{
+  .input {
+    /* campo input adicionar e botoes */
+    position: relative;
+    top: 200px;
+    margin-left: -50px;
+    display: block;
+  }
+  #input1 {
+    display: block;
+  }
+  #input2 {
+    display: block;
+  }
+
+  #cont-task {
+    font-size: 18px;
+    height: 450px;
+    overflow: auto;
+    border: 1px solid;
+    text-align: center;
+    font-size: 18px;
+    top: 150px;
+  }
+  .selected {
+    width: 350px;
+    font-size: 22px;
+  }
+
+  .completed {
+    width: 350px;
+  }
+
+  .main {
+    background-image: url(./imgs/black-tea-pen-spectacles-and-blank-white-papers-with-clipboard-on-wooden-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    height: 800px;
+  }
+
+  .input {
+    top: 130px;
+  }
+  .input h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    position: relative;
+    top: 15px;
+  }
+  .input input {
+    margin-top: 10px;
+    width: 200px;
+  }
+  /* botao input */
+  #criar-tarefa {
     margin-left: 5px;
     font-size: 25px;
     background-color: green;
@@ -66,9 +64,8 @@
     font-size: 7px;
     position: relative;
     top: -5px;
-  
   }
-  #apaga-tudo{
+  #apaga-tudo {
     background-color: red;
     border-radius: 100%;
     width: 30px;
@@ -78,49 +75,32 @@
     color: white;
     position: relative;
     top: 5px;
-
-}
-#mover-cima{
+  }
+  #mover-cima {
     width: 30px;
     margin-left: 5px;
     position: relative;
     top: 12px;
-}
-#mover-baixo{
+  }
+  #mover-baixo {
     width: 30px;
     margin-left: 5px;
     position: relative;
     top: 12px;
-}
-.footer{
-    height: 50px;
-    
-    
-}
-.footer p{
-    font-size: 20px;
-    display: inline-block;
-}
-.footer li{
-    width: 30px;
-    display: inline-block;
-}
-#menuContato{
-    height: 90px;
-    position: relative;
-    bottom: 40px;
-    align-items: center;
-}
+  }
+  .footer {
+    height: 100px;
+  }
 
-#remover-selecionado{
+  #remover-selecionado {
     background-color: grey;
     font-size: 15px;
     font-weight: bolder;
     color: white;
     padding: 5px;
     border-radius: 10px;
-    }
-  #remover-finalizados{
+  }
+  #remover-finalizados {
     background-color: yellow;
     font-size: 15px;
     font-weight: bolder;
@@ -128,9 +108,8 @@
     padding: 5px;
     border-radius: 10px;
     margin-left: 5px;
-  
   }
-  #salvar-tarefas{
+  #salvar-tarefas {
     background-color: rgb(0, 153, 255);
     font-size: 15px;
     font-weight: bolder;
@@ -139,7 +118,7 @@
     border-radius: 10px;
     margin-left: 5px;
   }
-  #apagar-memoria{
+  #apagar-memoria {
     background-color: red;
     font-size: 15px;
     font-weight: bolder;
@@ -147,6 +126,5 @@
     padding: 5px;
     border-radius: 10px;
     margin-left: 5px;
-
-}
+  }
 }

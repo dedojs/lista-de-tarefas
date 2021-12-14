@@ -145,6 +145,7 @@ menu .button{
   color: white;
   padding: 5px;
   border-radius: 10px;
+  content: 'Apagar selecionado';
   }
 #remover-finalizados{
   background-color: yellow;
