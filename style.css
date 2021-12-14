@@ -336,11 +336,59 @@ menu .button{
       width: 150px;
       margin-left: -20px;
     }
+    #cont-task{
+      position: relative;
+      top: 100px;
+      font-size: 20px;
+    }
+    
+}
 
+@media screen and (max-width: 500px) {
+  .main {
+    background-image: url(./imgs/black-tea-pen-spectacles-and-blank-white-papers-with-clipboard-on-wooden-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    height: 300px;
+  }
 
+  .input{
+    top: 60px;
+    }
+  .input h2{
+    font-size: 18px;
+    margin-left: -30px;
+    
+  }
+  .input input{
+    width: 100px;
+    height: 20px;
+    margin-left: -20px;
+  }
+  #cont-task{
+    position: relative;
+    top: -80px;
+    font-size: 15px;
+  }
+  /* botao input */
+#criar-tarefa{
+  margin-left: 5px;
+  font-size: 20px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 40px;
+  font-size: 7px;
+  position: relative;
+  top: -5px;
 
-
-
+}
+#input2{
+  width: 40px;
+}
+  
 }
 
 
