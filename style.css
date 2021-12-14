@@ -244,7 +244,7 @@ menu .button{
 
 
 /* media query */
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1600px) {
   .input{
     /* campo input adicionar e botoes */
     position: relative;
@@ -263,27 +263,36 @@ menu .button{
 }
 
 @media screen and (max-width: 1495px) {
-  .input{
+  .input {
     /* campo input adicionar e botoes */
     position: relative;
-    top: 200px;
-    margin-left: -50px;
+    top: 60px;
+    margin-left: 50px;
     display: block;
   }
-  #input1{
-   display: block;
+  #input1 {
+    position: relative;
+    top: 10px;
+   
   }
-  #input2{
+  #input2 {
+    position: relative;
     display: block;
+    top: -45px;
+    left: 70px;
+    width: 200px;
   }
 
-  #cont-task{
-    position: relative;
-    top: 200px;
+  #cont-task {
+    font-size: 18px;
+    height: 800px;
+    overflow: auto;
+    text-align: center;
+    font-size: 18px;
+    top: 20px;
   }
-  .selected{
-    width: 450px;
-  }
+  
+  
 }
 
 
