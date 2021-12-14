@@ -102,6 +102,9 @@ h2{
 #cont-task{
   position: relative;
   top: 160px;
+  overflow: auto;
+  
+  height: 500px;
 }
 
 /* botao input */
@@ -251,6 +254,7 @@ menu .button{
   #cont-task{
     position: relative;
     top: 200px;
+
   }
 }
 
@@ -273,122 +277,15 @@ menu .button{
     position: relative;
     top: 200px;
   }
-}
-
-@media screen and (max-width: 800px) {
-  .input{
-    /* campo input adicionar e botoes */
-    position: relative;
-    top: 200px;
-    margin-left: -50px;
-    display: block;
-  }
-  #input1{
-   display: block;
-  }
-  #input2{
-    display: block;
-  }
-
-  #cont-task{
-    position: relative;
-    top: 200px;
-  }
-  .main {
-    background-image: url(./imgs/black-tea-pen-spectacles-and-blank-white-papers-with-clipboard-on-wooden-background.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    position: relative;
-    height: 700px;
-  }
-
-  .input{
-    top: 130px;
-    }
-  .input h2{
-    font-size: 35px;
-    margin-bottom: 10px;
-  }
-  .input input{
-    margin-top: 10px;
-    width: 200px;
+  .selected{
+    width: 450px;
   }
 }
 
-  @media screen and (max-width: 800px) {
-    .main {
-      background-image: url(./imgs/black-tea-pen-spectacles-and-blank-white-papers-with-clipboard-on-wooden-background.jpg);
-      background-repeat: no-repeat;
-      background-position: center center;
-      position: relative;
-      height: 500px;
-    }
 
-    .input{
-      top: 100px;
-      }
-    .input h2{
-      font-size: 25px;
-      margin-bottom: 10px;
-    }
-    .input input{
-      margin-top: 10px;
-      width: 150px;
-      margin-left: -20px;
-    }
-    #cont-task{
-      position: relative;
-      top: 100px;
-      font-size: 20px;
-    }
-    
-}
 
-@media screen and (max-width: 500px) {
-  .main {
-    background-image: url(./imgs/black-tea-pen-spectacles-and-blank-white-papers-with-clipboard-on-wooden-background.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    position: relative;
-    height: 300px;
-  }
+ 
 
-  .input{
-    top: 60px;
-    }
-  .input h2{
-    font-size: 18px;
-    margin-left: -30px;
-    
-  }
-  .input input{
-    width: 100px;
-    height: 20px;
-    margin-left: -20px;
-  }
-  #cont-task{
-    position: relative;
-    top: -80px;
-    font-size: 15px;
-  }
-  /* botao input */
-#criar-tarefa{
-  margin-left: 5px;
-  font-size: 20px;
-  background-color: green;
-  color: white;
-  font-weight: bold;
-  border-radius: 10px;
-  width: 40px;
-  font-size: 7px;
-  position: relative;
-  top: -5px;
 
-}
-#input2{
-  width: 40px;
-}
-  
-}
 
 

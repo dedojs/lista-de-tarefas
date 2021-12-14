@@ -1,0 +1,133 @@
+@media screen and (max-width: 630px) {
+    .main {
+      background-image: url(./imgs/black-tea-pen-spectacles-and-blank-white-papers-with-clipboard-on-wooden-background.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: relative;
+      height: 350px;
+    }
+  
+    .input{
+      top: 60px;
+      }
+    .input h2{
+      font-size: 18px;
+      margin-left: -30px;
+      
+    }
+    .input input{
+      width: 100px;
+      height: 20px;
+      margin-left: -20px;
+      font-size: 18px;
+      
+    }
+    #cont-task{
+      position: relative;
+      top: 28px;
+      font-size: 12px;
+      overflow: auto;
+      height: 220px;
+           
+    }
+    /* botao input */
+  #criar-tarefa{
+    margin-left: 5px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 40px;
+    font-size: 7px;
+    position: relative;
+    top: -5px;
+  
+  }
+  #input2{
+    width: 40px;
+    position: relative;
+    bottom: 100px;
+    right: 20px;
+    display: inline;
+  }
+
+  .selected{
+      width: 180px;
+      
+  }
+
+  .completed{
+      width: 180px;
+  }
+
+  h1{
+      font-size: 30px;
+  }
+
+  p{
+     font-size: 15px;
+  }
+
+  #remover-selecionado{
+    background-color: grey;
+    font-size: 10px;
+    font-weight: bolder;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    }
+  #remover-finalizados{
+    background-color: yellow;
+    font-size: 10px;
+    font-weight: bolder;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 5px;
+  
+  }
+  #salvar-tarefas{
+    background-color: rgb(0, 153, 255);
+    font-size: 10px;
+    font-weight: bolder;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 5px;
+  }
+  #apagar-memoria{
+    background-color: red;
+    font-size: 10px;
+    font-weight: bolder;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 5px;
+    
+  }
+  #apaga-tudo{
+    background-color: red;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    top: 7px;
+
+}
+#mover-cima{
+    width: 20px;
+    margin-left: 5px;
+    position: relative;
+    top: 12px;
+}
+#mover-baixo{
+    width: 20px;
+    margin-left: 5px;
+    position: relative;
+    top: 12px;
+}
+}
