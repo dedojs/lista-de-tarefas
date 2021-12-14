@@ -2,17 +2,31 @@
     body {
       background-image: url(./imgs/black-tea-pen-spectacles-and-blank-white-papers-with-clipboard-on-wooden-background.jpg);
       background-repeat: no-repeat;
-      background-position: center center;
-      position: relative;
+      background-position: center bottom;
+      position: cover;
       height: 400px;
+    }
+
+    .main{
+      height: 400px;
+    }
+    #in{
+      position: relative;
+      top: -20px;
+      margin-left: -50px;
+    }
+    .header{
+      height: 70px;
     }
   
     .input{
       top: 60px;
       font-size: 15px;
+      top: 28px;
       }
     .input h2{
-      font-size: 18px;
+      top:10px;
+      font-size: 15px;
       margin-left: -30px;
       
     }
@@ -28,13 +42,13 @@
     }
     #cont-task{
       position: relative;
-      top: 1px;
+      top: -40px;
       font-size: 12px;
       overflow: auto;
       height: 200px;
       text-align: left;
-      margin-left: 105px;  
-      margin-right: 55px;  
+      margin-left: 50px;  
+      margin-right: 50px;  
     }
     /* botao input */
   #criar-tarefa{
@@ -53,8 +67,8 @@
   #input2{
     width: 40px;
     position: relative;
-    top: -130px;
-    right: 20px;
+    top: -135px;
+    left: 60px;
     display: inline;
   }
 
@@ -84,44 +98,48 @@
      font-size: 12px;
   }
 
+  header{
+    height: 100px;
+  }
+
   #remover-selecionado{
     background-color: grey;
-    font-size: 8px;
+    font-size: 3px;
     font-weight: bolder;
     color: white;
     padding: 5px;
     border-radius: 10px;
-    width: 60px;
+    width: 30px;
     }
   #remover-finalizados{
     background-color: yellow;
-    font-size: 8px;
+    font-size: 3px;
     font-weight: bolder;
     color: black;
     padding: 5px;
     border-radius: 10px;
     margin-left: 5px;
-    width: 60px;
+    width: 30px;
   }
   #salvar-tarefas{
     background-color: rgb(0, 153, 255);
-    font-size: 8px;
+    font-size: 3px;
     font-weight: bolder;
     color: white;
     padding: 5px;
     border-radius: 10px;
     margin-left: 5px;
-    width: 60px;
+    width: 30px;
   }
   #apagar-memoria{
     background-color: red;
-    font-size: 8px;
+    font-size: 3px;
     font-weight: bolder;
     color: white;
     padding: 5px;
     border-radius: 10px;
     margin-left: 5px;
-    width: 60x;
+    width: 30px;
   }
   #apaga-tudo{
     background-color: red;
@@ -158,7 +176,7 @@
     position: relative;
     top: 15px;
   }
-  footer li a{
+  footer li{
     width: 20px;
   }
 }
