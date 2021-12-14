@@ -8,11 +8,12 @@
     }
 
     .main{
-      height: 400px;
+      height: 300px;
+      
     }
     #in{
       position: relative;
-      top: -20px;
+      top: -30px;
       margin-left: -50px;
     }
     .header{
@@ -67,7 +68,7 @@
   #input2{
     width: 40px;
     position: relative;
-    top: -135px;
+    top: -128px;
     left: 60px;
     display: inline;
   }
