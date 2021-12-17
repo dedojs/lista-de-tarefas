@@ -43,14 +43,11 @@ function select(element) {
   const listahtml = document.querySelectorAll('.task');
   let alvo = element.target;
   // let a1 = document.querySelector('.selected');
-  for (let i = 0; i < listahtml.length; i += 1) {
-    // console.log(listahtml.length);
-    teste5[i].classList.remove('selected');
-    // teste5[i].style.backgroundColor = '';
+  for (let i = 0; i <= listahtml.length; i += 1) {
     alvo.classList.add('selected');
-    // alvo.style.backgroundColor = 'grey';
+    listahtml[i].classList.remove('selected');
     if (alvo.classList === 'selected') {
-      teste5[teste5.length - 1].classList.remove('selected');
+      listahtml[listahtml.length - 1].classList.remove('selected');
     }
   }
   if (alvo === listTask) {
